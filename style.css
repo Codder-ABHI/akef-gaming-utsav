@@ -1588,9 +1588,13 @@ blockquote cite:before {
 .book22{
   margin-left: 500px;
 }
+
 .book3{
   padding-top: 50px;
-  margin-left: 700px;
+  margin-left: 750px;
+}
+.main{
+width: 200% ;
 }
 .book2{
   width: 180px;
@@ -2797,6 +2801,7 @@ body .search-modal .close:hover {
   font-family: "Permanent Marker", sans-serif !important;
   margin: 0px 0px 15px 0px;
 }
+
 .rs-banner.banner-home-style4 .content-wrap .event_counter2 .coming-soon-part2 {
   margin: 50px 0px 0px -51px;
 }
@@ -6611,7 +6616,8 @@ body .search-modal .close:hover {
 }
 /* ------------------------------------
     25. Timecount Ceremony Section CSS
----------------------------------------*/
+
+
 .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .CountDownTimer .time_circles {
   width: 100%;
   height: 100%;
@@ -7023,6 +7029,7 @@ body .search-modal .close:hover {
   padding: 205px 0 95px;
 }
 .rs-footer.style1 .footer-top .footer-logo img {
+  padding-top:10px;
   height: 40px;
 }
 .rs-footer.style1 .footer-top .footer-title {

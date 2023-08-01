@@ -631,6 +631,13 @@
     .rs-events-schedule.our-event .event-item .event-wrap .event-img img {
         width: 100%;
     }
+    .main{
+     min-width: 180% ;
+     margin-left:0px;
+     margin-left: -110px;
+ 
+     padding-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -661,7 +668,20 @@
         left: 84%;
     }
 }
+@media screen and (min-width:1280px){
+    .main{
+ 
 
+        margin-top: -60px !important;
+          margin-left: -300px !important;
+          width: 106% !important;
+        }
+    .timecounter-inner{
+        margin-top: -40px !important;
+        padding-left: 300px;
+        margin-bottom: -100px;
+      }    
+}
 @media only screen and (min-width: 321px) and (max-width: 768px) {
    .pricing-img{
     width:100%;

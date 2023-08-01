@@ -1564,7 +1564,7 @@ blockquote cite:before {
   color: #ffffff !important;
 }
 .full-width-header .rs-header .menu-area.sticky {
-  background: #ff9900cd !important;
+  background: #ff99007a !important
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area a .sticky-logo {
   display: block;
@@ -5488,7 +5488,7 @@ body .search-modal .close:hover {
 ------------------------------------*/
 .rs-newsletter.style1 .newsletter-wrap {
   padding: 72px 50px;
-  background-color: #ffa200de;
+  background-color: #ffa2005e;
   border-radius: 5px;
   position: relative;
 }

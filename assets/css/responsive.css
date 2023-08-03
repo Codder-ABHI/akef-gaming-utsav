@@ -668,16 +668,33 @@
         left: 84%;
     }
 }
+@media (max-width: 768px) {
+    .mn{
+      display: none;
+    }
+  }
+
+  @media (min-width: 885px) {
+    .main{
+ 
+
+        margin-top: -80px !important;
+          margin-left: -300px !important;
+          width: 106% !important;
+        }
+    }
+
+
 @media screen and (min-width:1280px){
     .main{
  
 
-        margin-top: -60px !important;
+        margin-top: -80px !important;
           margin-left: -300px !important;
           width: 106% !important;
         }
     .timecounter-inner{
-        margin-top: -40px !important;
+        margin-top: -100px !important;
         padding-left: 300px;
         margin-bottom: -100px;
       }    

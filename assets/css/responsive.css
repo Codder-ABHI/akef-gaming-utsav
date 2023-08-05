@@ -137,6 +137,9 @@
 }
 
 @media screen and (min-width: 992px){
+    .buttn{
+        transform: translateY(360%);
+    }
     .nav-menu .rs-mega-menu > a:after, 
     .nav-menu > .menu-item-has-children > a:after {
         content: "\f107";
@@ -415,6 +418,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+ 
     .hidden-sm {
         display: none !important;
     }
@@ -632,14 +636,46 @@
         width: 100%;
     }
     .main{
-     min-width: 180% ;
-     margin-left:0px;
-     margin-left: -110px;
+     min-width: 100% ;
+  
+     margin-top: -130px;
+     margin-left: 0px;
  
      padding-left: 0px;
     }
+    .timecounter-inner{
+        padding-top: 30px;
+        margin-left: -15px;
+    
+    }
+    .buttn{
+        padding-top: 30px;
+      }
+.book24{
+    height: 55px;
+    margin-right: -20px;
+    width: 120px;
+    font-size: 15px;
 }
+.map{
+   
+    width: 300px;
+ 
+}
+}
+@media screen and (width: 412px){
+    .buttn{
+        padding-top: 50px;
+      }
 
+      .timecounter-inner{
+        padding-top: 0px;
+        margin-left: 0px;
+    
+    }
+
+    
+}
 @media only screen and (max-width: 575px) {
     .sec-title .title br{
         display: none;
@@ -670,11 +706,15 @@
 }
 @media (max-width: 768px) {
     .mn{
-      display: none;
+ 
+      margin-left: 0px;
+      margin-top: -300px;
     }
   }
-
-  @media (min-width: 885px) {
+.buttn{
+    margin-top: 0px;
+    
+ /* @media (min-width: 885px) {
     .main{
  
 
@@ -683,16 +723,17 @@
           width: 106% !important;
         }
     }
+*/
+}
 
-
-@media screen and (min-width:1280px){
-    .main{
+@media screen and (min-width:830px){
+ /*   .main{
  
 
         margin-top: -80px !important;
           margin-left: -300px !important;
           width: 106% !important;
-        }
+        }*/
     .timecounter-inner{
         margin-top: -100px !important;
         padding-left: 300px;
@@ -718,6 +759,9 @@
     .rs-partner.sponsors-style .grid-figure {
         padding: 40px 40px 40px 40px;
     }
+
+
+
 
     .rs-newsletter.style1.newsletter-home6-style .newsletter-wrap .newsletter-form .paper-plane {
         right: 13px;

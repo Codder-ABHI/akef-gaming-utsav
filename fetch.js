@@ -12,3 +12,16 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+$(document).ready(function () {
+  // Initialize the image carousel
+  $("#image-carousel").owlCarousel({
+      items: 4,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      margin: 10,
+      rtl: true,
+      direction: 'left',
+  });
+});

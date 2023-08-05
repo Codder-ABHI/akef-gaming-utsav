@@ -663,9 +663,9 @@
  
 }
 }
-@media screen and (width: 412px){
+@media screen and (min-width: 412px) and (max-width:480px){
     .buttn{
-        padding-top: 50px;
+        padding-top: 60px;
       }
 
       .timecounter-inner{

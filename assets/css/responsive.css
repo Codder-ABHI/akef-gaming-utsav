@@ -417,7 +417,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 840px) {
  
     .hidden-sm {
         display: none !important;
@@ -649,7 +649,7 @@
     
     }
     .buttn{
-        padding-top: 30px;
+        padding-top: 50px;
       }
 .book24{
     height: 55px;

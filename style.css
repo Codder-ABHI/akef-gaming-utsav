@@ -1582,7 +1582,7 @@ blockquote cite:before {
   display: flex;
   overflow: hidden;
   white-space: nowrap;
-  animation: smoothScroll 15s linear infinite; /* Adjust the scroll duration as needed */
+  animation: smoothScroll 25s linear infinite; /* Adjust the scroll duration as needed */
 }
 .sp2{
   height: 100px !important;

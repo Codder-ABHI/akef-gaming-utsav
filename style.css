@@ -1600,7 +1600,7 @@ blockquote cite:before {
 }
 @media (max-width: 768px) {
   .sponsors-container {
-    animation-duration: 5s; /* Adjust the scroll duration for smaller screens */
+    animation-duration: 20s; /* Adjust the scroll duration for smaller screens */
   }
 
   .sponsors-container img {
